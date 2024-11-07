@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: url(images/เชฟ\ 2.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; /* ใช้ความสูงเต็มจอ */
+    margin: 0; /* กำจัด margin ของ body */
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    padding: 1%;
+    padding-bottom: 2rem;
+}
+
+.contact {
+    display: flex;
+    margin: 0 5rem;
+    margin-top: 2rem;
+    justify-content: right;
+}
+
+.contact div {
+    display: flex;
+    margin: 0 1rem;
+}
+
+.tele {
+    color: white;
+}
+
+.help a {
+    color: white;
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
+.social-icon a {
+    color: white;
+    display: inline-flex;
+    margin: .3rem .5rem;
+}
+
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 8%;
+}
+
+.menu nav {
+    margin-top: 20px;
+}
+
+.menu nav a {
+    display: inline-flex;
+    margin: 0 1rem;
+    color: white;
+}
+
+.menu nav .input {
+    display: inline-flex;
+    padding: .5rem;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.menu .logo {
+    display: inline-block; 
+    vertical-align: middle; 
+    font-size: 2rem;
+    color: white;
+}
+
+.hero {
+    margin: 8rem 15%;
+    padding: 0 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+    border: 5px solid orange;
+    border-radius: 10px ;
+}
+
+.hero-title h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.hero-title .name {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.hero-title p {
+    display: flex;
+    text-indent: 5%;
+    margin-top: 2rem;
+    line-height: 2;
+    font-size: 1.25rem;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.footer-top-con {
+    display: grid;
+    padding: .75rem 8%;
+    grid-template-columns: .3fr .5fr .2fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
+}
+
+.contacr-f a {
+    color: white;
+}
