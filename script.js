@@ -1,0 +1,1 @@
+Buyitem = document.getElementById(Buy);
